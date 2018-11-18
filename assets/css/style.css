@@ -2,6 +2,7 @@ body {
     font-family: 'Times New Roman';
     color: #777777;
     margin: 0px;
+    height: 100%;
 }
 
 #headerdiv {
@@ -14,7 +15,6 @@ header {
     border-style: none;
     margin-left: -20px;
     margin-right: -20px;
-    border-bottom: 3px;
     border-bottom: solid;
 }
 
@@ -48,26 +48,48 @@ a {
 }
 #contentdiv{
     background-color: lightgray;
-    overflow: auto;
-
 }
 
+section {
+    color: #4aaaa5;
+    font-size: 14px;
+}
+img {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
 
 .container {
-    width: 960px;
+    width: 900px;
     background-color:white;
-    margin: auto;
-    padding: 0;
-    margin-bottom: 0;
+    padding: 30px 30px 30px 30px;
+    margin-left: auto;
+    margin-right: auto; 
+    
+
+    
+    
 }
 
 footer {
-    position: fixed;
+    text-align: center;
     bottom: 0;
     width: 100%;
     background-color: #666666;
-    height: 30px;
+    height: 50px;
     border-top: solid;
-    border-top-width: 10px;
+    border-top-width: 6px;
     border-top-color: #4aaaa5;
+    position: fixed;
+}
+
+#topspacer {
+    height: 30px;
+    background-color: lightgray;
+}
+
+#bottomspacer {
+    height: 80px;
+    background-color: lightgray;
 }
