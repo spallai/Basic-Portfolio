@@ -78,6 +78,23 @@ footer {
     border-top-color: #4aaaa5;
 }
 
+.inputfields {
+    width: 100%
+}
+
+#messagebox {
+    height: 150px;
+}
+
+.button{
+    background-color: #4aaaa5;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
 #topspacer {
     height: 30px;
     background-color: lightgray;
