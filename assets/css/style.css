@@ -53,7 +53,7 @@ a {
     font-size: 28px;
     margin-top: -10px;
 }
-img {
+#aboutprofilepic {
     float: left;
     padding-right: 10px;
     padding-bottom: 10px;
@@ -103,4 +103,100 @@ footer {
 #bottomspacer {
     height: 80px;
     background-color: lightgray;
+}
+
+#catpic1 {
+    z-index: 1;
+    position: relative;
+    float: left;
+    margin-top: 20px;
+}
+#cat1 {
+    z-index: 2;
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 6px;
+    width: 188px;
+    margin-bottom: 6px;
+    height: 17px;
+    margin-top: 200px;
+}
+
+#catpic2 {
+    z-index: 1;
+    margin-left: 40px;
+    
+}
+
+#cat2 {
+   
+    z-index: 2;
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 6px;
+    width: 212px;
+    margin-bottom: 10px;
+    height: 17px;
+    margin-top: 182px;
+    margin-left: 240px;
+}
+
+#catpic3 {
+    z-index: 1;
+}
+
+#cat3 {
+    z-index: 2;
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 6px;
+    width: 188px;
+    margin-bottom: 10px;
+    height: 17px;
+    margin-top: 182px;
+}
+
+#catpic4 {
+    z-index: 1;
+    position: absolute;
+    float: right;
+    padding-left: 39px;
+}
+
+#cat4 {
+    z-index: 2;
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 6px;
+    width: 214px;
+    margin-bottom: 10px;
+    height: 17px;
+    margin-top: -46px;
+    margin-left: 239px;
+}
+
+#cat5 {
+    z-index: 2;
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 6px;
+    width: 188px;
+    margin-bottom: 10px;
+    height: 17px;
+    margin-top: 179px;
 }
